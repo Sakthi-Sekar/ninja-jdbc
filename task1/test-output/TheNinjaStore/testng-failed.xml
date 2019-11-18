@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TheNinjaStore]">
+  <test thread-count="5" name="CartActions(failed)">
+    <classes>
+      <class name="com.org.task1.testscripts.CartActions">
+        <methods>
+          <include name="enterData" invocation-numbers="0 1"/>
+          <include name="validateCartAfterAdd"/>
+          <include name="setup"/>
+          <include name="validateAfterRemove"/>
+          <include name="clickSearchButton"/>
+          <include name="negativeTestCase"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.org.task1.testscripts.CartActions -->
+    </classes>
+  </test> <!-- CartActions(failed) -->
+</suite> <!-- Failed suite [TheNinjaStore] -->

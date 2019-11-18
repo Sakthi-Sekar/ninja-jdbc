@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="23561" started-at="2019-11-15T13:27:27Z" finished-at="2019-11-15T13:27:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="23561" started-at="2019-11-15T13:27:27Z" finished-at="2019-11-15T13:27:51Z">
+      <class name="com.org.task1.testscripts.CartActions">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.org.task1.testscripts.CartActions@3e9b1010]" name="setup" is-config="true" duration-ms="14072" started-at="2019-11-15T13:27:27Z" finished-at="2019-11-15T13:27:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="dataBaseReader()[pri:0, instance:com.org.task1.testscripts.CartActions@3e9b1010]" name="dataBaseReader" is-config="true" duration-ms="285" started-at="2019-11-15T13:27:41Z" depends-on-methods="com.org.task1.testbase.InvokeBrowser.setup" finished-at="2019-11-15T13:27:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataBaseReader -->
+        <test-method status="PASS" signature="enterData()[pri:0, instance:com.org.task1.testscripts.CartActions@3e9b1010]" name="enterData" duration-ms="8070" started-at="2019-11-15T13:27:41Z" finished-at="2019-11-15T13:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterData -->
+        <test-method status="PASS" signature="clickSearchButton()[pri:1, instance:com.org.task1.testscripts.CartActions@3e9b1010]" name="clickSearchButton" duration-ms="181" started-at="2019-11-15T13:27:49Z" finished-at="2019-11-15T13:27:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSearchButton -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.org.task1.testscripts.CartActions@3e9b1010]" name="closeBrowser" is-config="true" duration-ms="928" started-at="2019-11-15T13:27:50Z" finished-at="2019-11-15T13:27:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.org.task1.testscripts.CartActions -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

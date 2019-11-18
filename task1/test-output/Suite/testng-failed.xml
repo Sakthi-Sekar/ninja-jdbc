@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.org.task1.testscripts.CartActions">
+        <methods>
+          <include name="enterData" invocation-numbers="1"/>
+          <include name="validateCartAfterAdd"/>
+          <include name="validateAfterRemove"/>
+          <include name="negativeTestCase"/>
+        </methods>
+      </class> <!-- com.org.task1.testscripts.CartActions -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
